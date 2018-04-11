@@ -1,4 +1,5 @@
 @extends('layouts.default')
+<<<<<<< HEAD
 
 @section('content')
   <div class="jumbotron">
@@ -13,4 +14,8 @@
       <a class="btn btn-lg btn-success" href="#" role="button">现在注册</a>
     </p>
   </div>
+=======
+@section('content')
+  <h1>主页</h1>
+>>>>>>> static-pages
 @stop

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+<<<<<<< HEAD
     <title>@yield('title', 'Sample App') - Laravel 入门教程</title>
     <link rel="stylesheet" href="/css/app.css">
   </head>
@@ -22,5 +23,11 @@
     <div class="container">
       @yield('content')
     </div>    
+=======
+    <title>@yield('title', 'Sample')</title>
+  </head>
+  <body>
+    @yield('content')
+>>>>>>> static-pages
   </body>
 </html>
