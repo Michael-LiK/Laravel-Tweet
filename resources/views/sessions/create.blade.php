@@ -26,6 +26,9 @@
           <button type="submit" class="btn btn-primary">登录</button>
       </form>
 
+         <div class="checkbox">
+            <label><input type="checkbox" name="remember"> 记住我</label>
+         </div>
       <hr>
 
       <p>还没账号？<a href="{{ route('signup') }}">现在注册！</a></p>
