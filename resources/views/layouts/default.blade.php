@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>@yield('title', 'Sample App') - Laravel Tweet</title>
+    <title>@yield('title', 'Laravel Tweet') - Laravel Tweet</title>
     <link rel="stylesheet" href="/css/app.css">
   </head>
   <body>

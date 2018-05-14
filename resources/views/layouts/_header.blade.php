@@ -1,11 +1,11 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
     <div class="col-md-offset-1 col-md-10">
-      <a href="/" id="logo">Sample App</a>
+      <a href="/" id="logo">Laravel-Tweet</a>
       <nav>
         <ul class="nav navbar-nav navbar-right">
           @if (Auth::check())
-            <li><a href="{{ route('users.index') }}">用户列表</a></li>
+            <li><a href="{{ route('users.index') }}">user list</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                 {{ Auth::user()->name }} <b class="caret"></b>
@@ -19,15 +19,15 @@
                     <form action="{{ route('logout') }}" method="POST">
                       {{ csrf_field() }}
                       {{ method_field('DELETE') }}
-                      <button class="btn btn-block btn-danger" type="submit" name="button">退出</button>
+                      <button class="btn btn-block btn-danger" type="submit" name="button">Logout</button>
                     </form>
                   </a>
                 </li>
               </ul>
             </li>
           @else
-            <li><a href="{{ route('help') }}">帮助</a></li>
-            <li><a href="{{ route('login') }}">登录</a></li>
+            <li><a href="{{ route('help') }}">Help</a></li>
+            <li><a href="{{ route('login') }}">Login</a></li>
           @endif
         </ul>
       </nav>
