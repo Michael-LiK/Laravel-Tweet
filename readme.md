@@ -13,3 +13,7 @@ Laravel-Tweet is a simple,lightweight,friendly demo.
 The Laravel-Tweet is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 ![avatar](http://cdn.chinanalan.com/home.png)
+
+![avatar](http://cdn.chinanalan.com/content.png)
+
+![avatar](http://cdn.chinanalan.com/list.png)

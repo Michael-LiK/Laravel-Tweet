@@ -7,7 +7,7 @@
         <section class="status_form">
           @include('shared._status_form')
         </section>
-        <h3>微博列表</h3>
+        <h3>titter lists</h3>
         @include('shared._feed')
       </div>
       <aside class="col-md-4">
@@ -23,10 +23,10 @@
     <div class="jumbotron">
       <h1>Hello Laravel Tweet</h1>
       <p class="lead">
-        You are looking at  <a href="www.chinasuzao.com">Laravel Tweet's</a>Home 。
+        You are looking at  <a href="www.chinasuzao.com">Laravel Tweet's</a> Home 。
       </p>
       <p>
-        Anything From Hear Begin
+        Anything From Hear Begin  
       </p>
       <p>
         <a class="btn btn-lg btn-success" href="{{ route('signup') }}" role="button">Now Register</a>
